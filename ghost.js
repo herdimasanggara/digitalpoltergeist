@@ -1,4 +1,4 @@
-var countDownDate = new Date("Dec 18, 2020 10:45:00").getTime();
+var countDownDate = new Date("Sep 01, 2022 12:00:00").getTime();
 
 
 var x = setInterval(function() {
@@ -30,7 +30,6 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-
 
 window.addEvent('domready', function() {
   var container = $(document.body),

@@ -70,7 +70,6 @@ audio { width: 30vw;
   margin: 0;
   padding: 0;
   flex: 0 1 calc(20vw - 8px);
-  /* <-- adjusting for margin */
 }
 
 .fmarquee01 {
@@ -336,19 +335,3 @@ audio { width: 30vw;
     transform: rotateY(460deg);
   }
 }
-
-/*.fglow {
-  animation: glowing 1s linear infinite;
-}
-
-@keyframes glowing {
-  0% { text-shadow: 0 0 0px black; }
-  12.5% { text-shadow: 0 0 4px black; }
-  25% { text-shadow: 0 0 8px black; }
-  37.5% { text-shadow: 0 0 12px black; }
-  50% { text-shadow: 0 0 16px black; }
-  62.5% { text-shadow: 0 0 12px black; }
-  75% { text-shadow: 0 0 8px black; }
-  87.5% { text-shadow: 0 0 4px black; }
-  100% { box-shadow: 0 0 0px black; }
-}*/
